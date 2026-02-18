@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#a20101">
+
+  <!-- Performance Hints -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  <link rel="dns-prefetch" href="https://upload.wikimedia.org">
+
+  <!-- 1.1 Title Tag Otimizada para Alta Conversão e SEO -->
+  <title>DezPila: IPTV P2P 4K | TV Box, Filmes e Séries Liberados por R$10</title>
+
+  <!-- 1.2 Meta Description & Keywords Refinadas -->
+  <meta name="description"
+    content="A melhor lista de 2025! Tenha +60.000 conteúdos: Filmes, Séries, Premiere e Canais 4K por R$10/mês. Teste agora na TV Box, Smart TV e Celular.">
+  <meta name="keywords"
+    content="IPTV, lista iptv, tv box, p2p, unitv, my family cinema, tv express, redplay, htv, btv, iptv gratis, iptv teste, iptv smarters, recarga tv express, unitv s1, unitv s3, mfc, lista iptv 2025, filmes online, series gratis, futebol ao vivo, premiere, combate, netflix barato, globoplay, disney plus barato, iptv p2p, melhor iptv, iptv sem travas, lista m3u, iptv legalizado, streaming barato, iptv 4k, canais 4k, assistir tv online, tv box 4k, fire stick iptv, roku iptv, xiaomi mi box iptv">
+  <meta name="author" content="DezPila Streaming">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.10pilaoficial.site/">
+
+  <!-- 11.1 Open Graph (Facebook/WhatsApp/LinkedIn) -->
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Libere tudo na sua TV por R$10/mês - DezPila">
+  <meta property="og:description"
+    content="Chega de mensalidades caras. Acesse Filmes, Séries e Canais Ao Vivo em 4K. Compatível com tudo.">
+  <meta property="og:url" content="https://www.10pilaoficial.site/">
+  <meta property="og:site_name" content="DezPila Streaming">
+  <meta property="og:image" content="https://www.10pilaoficial.site/img/dezpila-app.webp">
+  <meta property="og:image:alt" content="Interface do App DezPila na TV">
+
+  <!-- 11.2 Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DezPila - A Revolução do Streaming">
+  <meta name="twitter:description" content="Tenha acesso a todos os streamings em um só lugar. Apenas R$10 mensais.">
+  <meta name="twitter:image" content="https://www.10pilaoficial.site/img/dezpila-app.webp">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #050505;
+      color: white;
+      overflow-x: hidden;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #050505;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #b91c1c;
+      border-radius: 4px;
+    }
+
+    /* Animation for infinite scroll */
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    .animate-scroll {
+      animation: scroll 40s linear infinite;
+    }
+
+    .animate-scroll:hover {
+      animation-play-state: paused;
+    }
+
+    /* Enhanced Glassmorphism */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .glass-card-strong {
+      background: rgba(20, 0, 0, 0.4);
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+      border: 1px solid rgba(220, 38, 38, 0.2);
+      box-shadow: 0 8px 32px 0 rgba(220, 38, 38, 0.15);
+    }
+
+    .glass-modal {
+      background: rgba(10, 10, 10, 0.85);
+      backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .neon-text {
+      text-shadow: 0 0 10px rgba(220, 38, 38, 0.7), 0 0 20px rgba(220, 38, 38, 0.5);
+    }
+
+    .neon-box {
+      box-shadow: 0 0 15px rgba(220, 38, 38, 0.4), inset 0 0 10px rgba(220, 38, 38, 0.2);
+    }
+
+    /* Shimmer Effect for Buttons */
+    @keyframes shimmer {
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    .animate-shimmer {
+      animation: shimmer 2s infinite;
+    }
+
+    /* Fade In Up */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fade-in-up {
+      animation: fadeInUp 0.5s ease-out forwards;
+    }
+
+    /* Custom Input Autofill fix for dark mode */
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px #1a1a1a inset !important;
+      -webkit-text-fill-color: white !important;
+    }
+  </style>
+
+  <!-- 3. SEO TÉCNICO: Structured Data (Schema Markup) -->
+
+  <!-- Website Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "DezPila Streaming",
+      "alternateName": "DezPila",
+      "url": "https://www.10pilaoficial.site/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.10pilaoficial.site/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+  <!-- Software Application Schema (Crucial for App Ranking) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "DezPila Streaming App",
+      "operatingSystem": "Android, iOS, Tizen, WebOS, Windows",
+      "applicationCategory": "EntertainmentApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "10.00",
+        "priceCurrency": "BRL"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "12500"
+      },
+      "description": "Aplicativo de streaming que reúne filmes, séries, canais ao vivo e esportes em uma única plataforma."
+    }
+    </script>
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DezPila App",
+      "url": "https://www.10pilaoficial.site/",
+      "logo": "https://www.10pilaoficial.site/logo_png.png",
+      "sameAs": [
+        "https://www.instagram.com/dezpila",
+        "https://www.facebook.com/dezpila"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-11-99999-9999",
+        "contactType": "customer service",
+        "areaServed": "BR",
+        "availableLanguage": "Portuguese"
+      }
+    }
+    </script>
+
+  <!-- Product Schema (Main Offer) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "DezPila Streaming - Plano Mensal",
+      "image": "https://www.10pilaoficial.site/img/dezpila-app.webp",
+      "description": "Plataforma completa de streaming com +60.000 conteúdos, canais ao vivo, filmes e séries em 4K. Compatível com Smart TV, Android, iOS e TV Box.",
+      "brand": {
+        "@type": "Brand",
+        "name": "DezPila"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "10.00",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock",
+        "url": "https://www.10pilaoficial.site/",
+        "priceValidUntil": "2026-12-31"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "2450"
+      }
+    }
+    </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto custa o DezPila?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O plano mensal do DezPila custa apenas R$10,00 por mês com acesso ilimitado a mais de 60.000 conteúdos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funciona em TV Box e Smart TV?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim! O DezPila é compatível com todas as marcas de Smart TV (Samsung, LG, Android TV), TV Box, Celulares Android/iOS, Tablet e PC."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Precisa de internet para funcionar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, o App DezPila precisa de internet. Nossa tecnologia otimizada permite rodar 4K com internet básica."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em quantos aparelhos posso usar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nossos planos tem capacidade para até 4 telas simultâneas, dependendo do plano escolhido."
+          }
+        }
+      ]
+    }
+    </script>
+  <!-- Security Scripts -->
+  <script>
+    // Disable Right Click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // Disable F12, Ctrl+U, Ctrl+Shift+I
+    document.onkeydown = function (e) {
+      if (e.keyCode == 123) { return false; }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; }
+      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; }
+    }
+
+    // Console Warning
+    console.log("%cATENÇÃO!", "color: red; font-size: 30px; font-weight: bold;");
+    console.log("%cEste é um recurso de navegador voltado para desenvolvedores. Se alguém lhe disse para copiar e colar algo aqui para habilitar um recurso ou 'hackear' a conta de alguém, trata-se de uma fraude.", "color: white; font-size: 14px;");
+  </script>
+</head>
+
+<body class="bg-[#050505] text-white">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
